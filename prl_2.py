@@ -1,5 +1,3 @@
-# Selection Sort with User Input
-
 arr = []
 
 n = int(input("Enter number of elements: "))
