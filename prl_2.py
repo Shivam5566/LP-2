@@ -3,9 +3,10 @@ arr = []
 n = int(input("Enter number of elements: "))
 
 for i in range(n):
-    num = float(input("Enter element: "))
+    num = float(input("Enter element: "))   # accepts float and negative values
     arr.append(num)
 
+# Selection Sort
 for i in range(n):
     min_index = i
 
