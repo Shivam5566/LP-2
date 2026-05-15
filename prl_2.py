@@ -3,7 +3,7 @@ arr = []
 n = int(input("Enter number of elements: "))
 
 for i in range(n):
-    num = int(input("Enter element: "))
+    num = float(input("Enter element: "))
     arr.append(num)
 
 for i in range(n):
